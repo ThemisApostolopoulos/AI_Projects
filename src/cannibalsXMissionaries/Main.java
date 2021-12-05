@@ -7,6 +7,11 @@ public class Main
 {
     public static void main(String[] args)
     {
+        /*
+            args[0] number of cannibals,missionaries
+            args[1] number of boat capacity
+            args[2] number of boat maneuvers
+         */
         String numOfCannibalsAndMissionaries = args[0];
         String numOfBoatCapacity = args[1];
         String numOfCrosses = args[2];

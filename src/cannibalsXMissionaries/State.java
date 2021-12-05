@@ -267,6 +267,10 @@ public class State implements Comparable<State>{
         this.totalPeople = totalPeople;
     }
 
+
+    /*
+    check whether two states are equal(as of number of cannibals on the left and right side, etc)
+     */
     @Override
     public boolean equals(Object obj)
     {
